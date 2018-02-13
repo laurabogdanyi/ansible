@@ -6,7 +6,9 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible -y
 sudo apt-get install openssh-server -y
+#GITHUB
 
+sudo apt-get install git
 #WORDPRESS
 
 git clone https://github.com/andreipak/wordpress-ansible.git
